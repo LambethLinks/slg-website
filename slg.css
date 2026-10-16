@@ -1,0 +1,150 @@
+﻿body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:87.5%;
+	background-image: url(images/slgbg.png);
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	margin:0 auto;
+	max-width:900px;
+	padding:10px;
+}
+
+#main	{
+	background-color: white;
+	padding:10px;
+	text-align:left;
+	border-radius:8px;
+	margin-top:10px;
+	clear:both;
+}
+th	{
+	font-size: large;
+	color:purple;
+}
+
+.redline {
+	color:#CC0099;
+	height:4px;
+}
+
+.xref {
+	text-align: center;
+	font-weight:bold
+}
+.footer {
+	text-align: center;
+}
+.smallfooter {
+	text-align:right;
+	font-size:small
+}
+.intro {
+	font-size: larger;
+}
+h1, h2, h3 {
+	color:purple; 
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin:1em 10px;
+}
+
+nav ul	{
+	margin:0 0 0 0;
+	padding:0;
+}
+
+nav li	{
+	display:inline-block;
+	margin:10px 10px 10px 0;
+}
+
+nav a, .totop a	{
+	text-decoration:none;
+	font-size:1.2em;
+	font-weight:bold;
+	padding:.25em .5em;
+	border-radius:5px;
+	color:purple;
+	border:2px purple solid;
+	background-color:white;
+}
+
+p	{
+	margin:1em 10px;
+}
+
+blockquote	{
+	margin:1em 2em;
+}
+
+.progdate {
+	font-family: Verdana;
+	font-weight: normal;
+	color: black;
+	text-align:left;
+	width:8em;
+}
+
+.progheading {
+	font-family: Verdana;
+	font-weight: bold;
+	color: blue;
+}
+
+.progdetails {
+	font-family: Verdana;
+	font-weight: normal;
+	color: black;
+	text-align:left;
+	padding:10px;
+}
+
+.noborder {
+	border-width: 0px;
+}
+
+.special	{
+	color:red;
+	font-weight:bold;
+	font-family:Verdana;
+}
+
+.totop	{
+	margin-top:20px;
+	text-align:center;
+}
+
+#diary table	{
+	border:2px blue solid;
+	margin:20px auto;
+	border-radius:8px;
+	clear:both;
+}
+#homepage .homepage, #eventspage .eventspage, #speakerspage .speakerspage, #cookiespage .cookiespage	{
+	color:white;
+	border-color:blue;
+	background-color:blue;
+}
+
+@media screen and (max-width: 640px) {
+	#main	{
+		padding:10px 0;
+	}
+	img.logo	{
+		width:90px;
+		height:61px;
+	}
+	p, h1, h2, h3{
+		margin:1em 2px;
+	}
+	blockquote	{
+		margin:1em 0;
+	}
+}
+
+img	{
+	max-width:100%;
+	height:auto;
+}
